@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+.length{
+	width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+.length2{
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+.length3{
+	width: 60px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}

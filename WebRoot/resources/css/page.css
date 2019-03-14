@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+ /*   分页样式 */
+ #page{
+ font-weight:bold; 
+ color:#0000ee;
+ font:16px verdana, arial, sans-serif;
+ border:solid 1px #c0c0c0;
+ }
+ #page li{
+ 	float:right;
+ 	margin-left:5px;
+ }
+ #page li.page-text{
+ 	color:#333;
+ 	cursor: default;
+ }
+ #page li a:hover{
+ color:#00ffff;
+ }

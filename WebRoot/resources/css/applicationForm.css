@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+.application-form{
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+     float:left;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.application-form.form1{
+	 width: 40%;
+	 height: 40px;
+}
+.application-form.form2{
+	 width: 20%;
+	 height: 40px;
+}
+.application-form.form3{
+	 width: 100%;
+	 height:300px;
+}
+.application-form.form5{
+	 width: 100%;
+	 height:380px;
+}
+.application-form.form6{
+	 width: 100%;
+	 height:340px;
+}
+.application-form.form4{
+	 width: 100%;
+	 height:40px;
+}
+.application-form.btn{
+	 width: 10%;
+	 height:40px;
+	  background-color: #c0c0c0;
+}
+.application-form.btn2{
+	 width: 20%;
+	 height:40px;
+	 float:right;
+	  background-color: #c0c0c0;
+}
+.establishment-form.form1{
+	 width: 100%;
+	 height:190px;
+}

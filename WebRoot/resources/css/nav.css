@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+/*CSS全局设置*/  
+*{  
+   margin:0;  
+   padding:0;  
+}  
+.nav{  
+   background-color:#EEEEEE;  
+   height:40px;  
+   width:80%;  
+   margin:0 auto;  
+}  
+/*横向一级菜单样式设置*/  
+ul{  
+   list-style:none;  
+}  
+ul li{  
+   float:left;  
+   line-height:40px;  
+   text-align:center;  
+   position:relative;  
+}  
+a{  
+    text-decoration:none;  
+    color:#000000;  
+    display:block;/*将a行内元素转变成块级元素*/  
+    width:160px;  
+    height:40px;  
+}  
+a:hover{  
+    background-color:#666666;  
+    color:#FFFFFF;  
+}  
+/* 竖向一级菜单样式 */
+ #box{
+   width:120px;
+   font-size: 12px;
+    font-family: "宋体";
+  }
+#box ul{
+  margin:0px;
+   padding:0px;
+  list-style-type: none;
+ }
+#box li{
+border-bottom: #ffffff solid 1px;
+      }
+#box li a{
+  display: block;
+   padding: 5px 5px 5px 8px;
+   text-decoration: none;
+   border-left: 12px solid #ff0000;
+  border-right: 1px solid #d7ced7;
+   background-color: #c0c0c0;
+   color:#ffffff;
+   }
+/*动态菜单的效果*/
+#box li a:link{
+    background-color: #c0c0c0;
+    color:#c0c0c0;
+ }
+#box li a:visited{
+   background-color: #c0c0c0;
+   color:#ffffff;
+ }
+#box li a:hover{
+   color:#ff0000;
+   }
+

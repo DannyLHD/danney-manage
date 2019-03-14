@@ -1,0 +1,18 @@
+package com.gh.system.domain;
+
+import java.util.Date;
+
+public abstract class BaseDomain {
+	public abstract String getId();
+	public abstract void setId(String id);
+	public abstract boolean isDelete();
+	public abstract void setDelete(boolean isDelete);
+	public abstract String getCreatorUsername();
+	public abstract void setCreatorUsername(String creatorUsername);
+	public abstract Date getCreateTime();
+	public abstract void setCreateTime(Date createTime);
+	public abstract String getLastModifyUsername();
+	public abstract void setLastModifyUsername(String lastModifyUsername);
+	public abstract Date getLastModifyTime();
+	public abstract void setLastModifyTime(Date lastModifyTime);
+}

@@ -1,0 +1,79 @@
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+import org.hibernate.annotations.GenericGenerator;
+
+import com.gh.system.domain.BaseDomain;
+
+@Entity 
+@Table(name = "XXX")
+public class XXX extends BaseDomain{
+
+	//其他字段
+	//...
+
+	//-----------------基础字段--------------------------------------------------
+	@Id
+	@GeneratedValue(generator="system-uuid")
+	@GenericGenerator(name = "system-uuid",strategy="uuid")
+	@Column(name = "ID", unique = true, nullable = true)
+	private String id;	//id
+	@Column(name = "IS_DELETE", columnDefinition="tinyint default 0", nullable=false)
+	private boolean isDelete;
+	@Column(name = "CREATOR_USERNAME")
+	private String creatorUsername;
+	@Temporal(TemporalType.TIMESTAMP)
+	@Column(name = "CREATE_TIME", length = 7)
+	private Date createTime;
+	@Column(name = "LAST_MODIFY_USERNAME")
+	private String lastModifyUsername;
+	@Temporal(TemporalType.TIMESTAMP)
+	@Column(name = "LAST_MODIFY_TIME", length = 7)
+	private Date lastModifyTime;
+	
+	//-----------------基础字段get、set------------------------------------------
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public boolean isDelete() {
+		return isDelete;
+	}
+	public void setDelete(boolean isDelete) {
+		this.isDelete = isDelete;
+	}
+	public String getCreatorUsername() {
+		return creatorUsername;
+	}
+	public void setCreatorUsername(String creatorUsername) {
+		this.creatorUsername = creatorUsername;
+	}
+	public Date getCreateTime() {
+		return createTime;
+	}
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+	public String getLastModifyUsername() {
+		return lastModifyUsername;
+	}
+	public void setLastModifyUsername(String lastModifyUsername) {
+		this.lastModifyUsername = lastModifyUsername;
+	}
+	public Date getLastModifyTime() {
+		return lastModifyTime;
+	}
+	public void setLastModifyTime(Date lastModifyTime) {
+		this.lastModifyTime = lastModifyTime;
+	}
+	
+}

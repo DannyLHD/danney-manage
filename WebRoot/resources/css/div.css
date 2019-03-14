@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+.user-div{
+	width:86%;
+	height:auto;
+	margin:5%;
+	padding:2%;
+	background-color:#e7e7e7;;
+}
+.login-div{
+	background-color:#c0c0c0;
+}

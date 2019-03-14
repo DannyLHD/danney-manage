@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+.user-link{
+	padding-right: 2%;
+}
+/* 新增查找 */
+.t1{
+	margin-left:10%;
+}
+.title{
+	color:black;
+	font-size: xx-large;
+	text-align:center
+}
+.content{
+	color:black;
+	font-size: medium;
+	text-align:center
+}
+.foot{
+	color:black;
+	font-size: small;
+	text-align:center
+}
